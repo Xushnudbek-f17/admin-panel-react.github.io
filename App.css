@@ -1,0 +1,26 @@
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: unset;
+}
+::-webkit-scrollbar-thumb{
+    background: orange;
+    border-radius: 12px;
+}
+.all{
+    width: 84%;
+    margin: 0 auto;
+    border: 2px solid white;
+    height: 600px;
+}
+h1{
+    color: aliceblue;
+}
+li{
+    border: 1px solid orange;
+    transition-duration: 0.5s;
+}
+li:hover{
+    border: 1px solid white;
+}
